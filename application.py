@@ -1,7 +1,7 @@
 from qume_client import qume_api_methods
 import ast
 
-api_path = "https://dev-api.qume.io"
+api_path = "https://api.qume.io"
 timeout = 20
 
 # insert account-specific api keys

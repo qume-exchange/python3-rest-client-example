@@ -13,7 +13,7 @@ Hints
 ----------------------
 
 * Make sure you are using Python3
-* To generate API keys, go to the "Accounts" page on the [Qume Sandbox](https://sandbox.qume.io)
+* To generate API keys, go to the "Accounts" page on the [Qume Exchange](https://api.qume.io)
 
 Application Sample Output
 -------------------------
