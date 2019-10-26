@@ -76,8 +76,8 @@ class qume_api_methods(object):
         return self.make_request("DELETE", endpoint, post_url_string=post_url_string)
 
     # returns the complete trade history
-    def get_trade_history(self):
-        endpoint = "/v1/trades"
+    def get_trade_history(self, symbol, limit = 1000):
+        endpoint = "/v1/instruments/{}/trades?limit={}".format(symbol, limit)
         return self.make_request("GET", endpoint)
 
     # edits leverage for a given position
