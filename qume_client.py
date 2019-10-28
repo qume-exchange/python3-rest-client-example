@@ -80,6 +80,10 @@ class qume_api_methods(object):
         endpoint = "/v1/instruments/{}/trades?limit={}".format(symbol, limit)
         return self.make_request("GET", endpoint)
 
+    def get_user_trades(self):
+        endpoint = "/v1/trades"
+        return self.make_request("GET", endpoint)
+
     # edits leverage for a given position
     def edit_position_leverage(self, symbol, desired_leverage):
         endpoint = "/v1/positions"
